@@ -3,6 +3,9 @@
  */
 import { Platform } from 'react-native'
 
+/**
+ * 提供对 ios 和 android 赋值的工具类
+ */
 export default class PlatformKit {
 
   static set(iosValue, AndroidValue) {

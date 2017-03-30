@@ -7,9 +7,11 @@
     "test": "node ./test/test"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "native-base": "^2.1.0",
     "react": "~15.4.1",
-    "react-native": "0.42.0"
+    "react-native": "0.42.0",
+    "react-native-switch-pro": "0.4.1"
   },
   "devDependencies": {
     "graceful-fs": "^4.1.11",

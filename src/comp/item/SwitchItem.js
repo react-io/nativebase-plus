@@ -7,21 +7,21 @@ import React, { Component } from 'react';
 
 import { StyleSheet, Text, View, } from 'react-native';
 
-import Plat from '../../utils/PlatformKit'
 
-import { Button, ListItem } from 'native-base'
+import { ListItem } from 'native-base'
 
 import Switch from 'react-native-switch-pro'
+import Plat from "../../kit/PlatformKit";
 
 /**
  * 起始页
  */
-export default class CustomerDataInputSettings extends Component {
+export default class SwitchItem extends Component {
 
   static propTypes = {
     itemName: React.PropTypes.string, // item 的名字
     switchCallBack: React.PropTypes.func, // switch 的值
-    disabled: React.PropTypes.bool // 禁用
+    disabled: React.PropTypes.bool // 是否禁用
   }
 
   render() {
